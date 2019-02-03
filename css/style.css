@@ -1,0 +1,313 @@
+@media (min-width: 576px) {} 
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) { 
+
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+
+    transform: scale(1.3) rotate(-1.3deg);
+    transition: all 0.30s ease-out !important;
+    color: pink;
+
+  } 
+
+
+  .navbar-dark .navbar-nav .nav-link {
+
+    transition: all 0.45s ease-out;
+
+  }
+
+  .header {
+
+    background: linear-gradient(#FF4136 ,#F532BE);
+    transition: all 0.45s ease-out;
+  }
+
+  .header:hover {
+
+    box-shadow: 5px 1px 40px 5px #FF4136;
+
+  }
+
+
+}
+
+
+@media (min-width: 1200px) { 
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+
+    transform: scale(1.3) rotate(-1.3deg);
+    transition: all 0.30s ease-out !important;
+    color: pink;
+
+  } 
+
+  .navbar-dark .navbar-nav .nav-link {
+
+    transition: all 0.45s ease-out;
+
+  }
+
+  .header {
+
+    background: linear-gradient(#FF4136 ,#F532BE);
+    transition: all 0.45s ease-out;
+
+  }
+
+  .header:hover {
+
+    box-shadow: 5px 1px 40px 5px #FF4136;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+.main {
+
+  background: url(../images/women.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+
+.header {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  background: linear-gradient(#FAF9B0 ,#F532BE);
+  font-weight: 700;
+}
+
+
+.h1-class {
+
+  color: #FAF9B0;
+  font-weight: 900;
+  border: 2px solid #FAF9B0;
+  text-align: center;  
+  width: 350px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+.h1-home {
+
+  color: #F532BE;
+
+}
+
+.h1-add {
+
+  color: #F532BE;
+
+}
+
+
+.h1-edit {
+
+  color: #F532BE;
+
+}
+
+.h1-sign {
+
+  color: #FAF9B0;
+
+}
+
+.h1-signup {
+
+  color: #F532BE;
+
+}
+
+
+
+.footer {
+
+  background: linear-gradient(#F532BE, #FAF9B0);
+
+
+}
+
+
+#add_post {
+
+  color: #fff;
+
+}
+
+#main-font {
+
+  font-size: 18px;
+
+}
+
+body {
+
+  font-family: Lora,'Times New Roman',serif !important;
+
+}
+
+.post-title {
+
+  font-weight: 800;
+
+}
+
+.post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.main-blog {
+
+  background: url(../images/background-blog.jpg);
+  background-size: contain;
+
+}
+
+.main-add {
+
+  background: url(../images/background-blog.jpg);
+  background-size: cover;
+
+}
+
+.main-edit {
+
+  background: url(../images/background-blog.jpg);
+  background-size: cover;
+
+}
+
+.main-sign {
+
+  background: url(../images/background-blog.jpg);
+  background-size: cover;
+
+}
+
+.main-signup {
+
+  background: url(../images/background-blog.jpg);
+  background-size: cover;
+
+}
+
+.post-preview {
+  /* border-bottom: 1px solid white;*/
+  position: relative;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.5);
+  border-top: 1px solid #FAF9B0;
+  border-bottom: 1px solid #FAF9B0;
+}
+
+.post-preview:before {
+  background-image: -webkit-linear-gradient(transparent 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0)),
+    -webkit-linear-gradient(0deg, transparent 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0));
+  opacity: 0.5;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .5;
+}
+
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: #fff;
+}
+
+header.masthead .page-heading h1, header.masthead .site-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+}
+
+.post {
+
+  color: #FAF9B0;
+
+}
+
+.sign-form {
+  color: #FAF9B0;
+  position: relative;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.5);
+  border-top: 1px solid #FAF9B0;
+  border-bottom: 1px solid #FAF9B0;
+}
+
+.sign-form:before {
+  background-image: -webkit-linear-gradient(transparent 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0)),
+    -webkit-linear-gradient(0deg, transparent 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0));
+  opacity: 0.5;
+}
+
+
+.social-facebook {
+
+  color: #3b5998;
+
+}
+
+.social-twitter {
+
+  color: #00aced;
+}
+
+.social-google {
+
+  color: #d34836;
+
+}
+
+
+.list-unstyled {
+
+  font-size: 0.8em;
+
+}
